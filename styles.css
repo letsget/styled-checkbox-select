@@ -3,8 +3,7 @@ body {
     font-size: 16px;
     margin: 0;
     -webkit-overflow-scrolling: touch;
-    overflow-y: scroll;
-    
+    overflow-y: scroll; 
     height: 100vh;
     display: flex;
     align-items: center;
@@ -15,7 +14,6 @@ body {
     width: 400px;
     padding: 50px;
     border: 1px solid #cbd1d4;
-    
     margin-left: auto;
     margin-right: auto;
   }
@@ -44,7 +42,6 @@ body {
     text-transform: uppercase;
     font-size: 14px;
     color: #ffffff;
-    
     padding: 8px 20px;
     border: 1px solid #0f8fee;
     background-color: #0f8fee;
@@ -66,7 +63,7 @@ body {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background-image: url();
+    background-image: url(images/select-arrows.svg);
     background-position: right 5px center;
     background-repeat: no-repeat;
     display: inline-block;
@@ -81,6 +78,7 @@ body {
     font-size: 14px;
     font-family: Arial,sans-serif;
     color: #333333;
+    cursor: pointer;
   }
   
   .select:focus {
@@ -105,7 +103,7 @@ body {
     vertical-align: middle;
     width: 20px;
     height: 20px;
-    background-image: url();
+    background-image: url(images/checkbox-unchecked.svg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 20px;
@@ -113,7 +111,7 @@ body {
   }
   
   .checkbox:checked ~ .checkbox-text::before {
-   background-image: url();
+   background-image: url(images/checkbox-checked.svg);
   }
   
   .checkbox:focus ~ .checkbox-text::before {
