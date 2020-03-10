@@ -3,4 +3,4 @@
 
 ###  Частый вопрос на собеседовании: как стилизовать чекбоксы и селект элементы формы. Решил загрузить рабочее решение.
 
-
+<a href="https://letsget.github.io/styled-checkbox-select/" target="_blank">View Demo</a>
